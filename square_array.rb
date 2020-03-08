@@ -4,7 +4,7 @@
 
 def square_array(numbers)
 new_numbers = []
-numbers.collect do |number|
+numbers.each do |number|
   new_numbers << (number**2)
 end 
 return new_numbers
