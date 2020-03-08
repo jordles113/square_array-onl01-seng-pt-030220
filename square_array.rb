@@ -2,11 +2,11 @@
 ## OUTPUTS --> squared value of intergers 
 
 
-def square_array(array)
+def square_array(numbers)
 numbers = [ 1, 2, 3]
 new_numbers = []
 numbers.each do |number|
-  number**2
+  new_numbers << number**2
   
 
 end 
